@@ -57,13 +57,21 @@
 }
 
 .card__text-div__top-icon {
-    width: 40px;
     position: absolute;
+    width: 40px;
     height: 40px;
     top: -20px;
     z-index: 2;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: aqua;
+}
+
+.card__text-div__top-icon__img {
+    width: 70%;
+    height: 70%;
 }
 
 .card__text-div__name {
@@ -86,5 +94,9 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: aqua;
+}
+
+.card__text-div__icon__img {
+    width: 80%;
+    height: 80%;
 }
